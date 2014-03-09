@@ -32,3 +32,25 @@ plt.xlim([1, 9])
 fig.savefig('age_v_height.png')
 
 
+# in matrix form this is as follows:
+# def gradientDescent(alpha = .05, x, y, eps = .001, iterations = 1500) {
+    # m = 0
+    # n = x.shape[0]
+
+
+
+# grad <- function(x, y, theta) {
+  # gradient <- (1/m)* (t(x) %*% ((x %*% t(theta)) - y))
+  # return(t(gradient))
+# }
+
+# define gradient descent update algorithm
+# grad.descent <- function(x, maxit){
+    # theta <- matrix(c(0, 0), nrow=1) # Initialize the parameters
+ 
+    # alpha = .05 # set learning rate
+    # for (i in 1:maxit) {
+      # theta <- theta - alpha  * grad(x, y, theta)   
+    # }
+ # return(theta)
+# }
